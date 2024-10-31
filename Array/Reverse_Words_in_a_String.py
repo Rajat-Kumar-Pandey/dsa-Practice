@@ -4,6 +4,11 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
+        # Split the string into words and reverse in one line, then join
+        # return ' '.join(s.split()[::-1])
+        
+        # or
+        
         # Split the string into words, filter out empty strings
         words = s.split()
         # Reverse the list of words
